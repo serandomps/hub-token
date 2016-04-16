@@ -1,6 +1,6 @@
 var serand = require('serand');
 
-serand.on('token', 'info', function (id, token, done) {
+serand.on('hub-token', 'info', function (id, token, done) {
     if (!done) {
         done = token;
         token = null;
