@@ -1,0 +1,9 @@
+{
+    "name": "hub-token",
+    "description": "hub-token component",
+    "scripts": ["index.js"],
+    "main": "index.js",
+    "dependencies": {
+        "serandomps/serand": "master"
+    }
+}
